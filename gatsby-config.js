@@ -27,7 +27,7 @@ module.exports = {
     {
       resolve: `gatsby-source-wordpress`,
       options: {
-        baseUrl: `shining3d.wecreate.com.hk`,
+        baseUrl: `www.shining3d.com`,
         protocol: `http`,
         hostingWPCOM: false
       }
