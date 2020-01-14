@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <footer className={footerStyles.footer}>
             <div className="container">
-                <span>© Gatsby-Bootstrap Project 2020</span>
+                <span className="text-dark">© Gatsby-Bootstrap Project 2020</span>
             </div>
         </footer>
     )
