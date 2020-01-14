@@ -16,6 +16,7 @@ export default ({ data }) => {
                     title={node.title}
                     excerpt={node.excerpt}
                     image={node.featured_media.source_url}
+                    alt={node.featured_media.slug}
                     readMore={node.slug}
                     />
                 ))
@@ -34,6 +35,7 @@ export const query = graphql`
         excerpt
         featured_media {
           source_url
+          slug
         }
       }
     }

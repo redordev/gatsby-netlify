@@ -8,7 +8,6 @@ import SEO from '../components/SEO'
 
 const BlogpostLayout = ({ data }) => {
   const post = data.wordpressPost
-  console.log('post',post)
   return (
     <div>
       <SEO 
